@@ -22,14 +22,14 @@
 		var endRok = end.getFullYear();
 		var milisekundy2 = end.getTime();
 		
-		var pozostalo = milisekundy2 - milisekundy; //obliczamy ile milisekund pozostało do wydarzenia
-		var dni = Math.floor(pozostalo/86400000); //obliczamy liczbe dni do wydarzenia
+		var pozostalo = milisekundy2 - milisekundy; 
+		var dni = Math.floor(pozostalo/86400000); 
 		
 	
 		
-		document.getElementById("aktualnaData").innerHTML = "Aktualna data: "+dzien+"/"+miesiac+"/"+rok; 
-		document.getElementById("dataWydarzenia").innerHTML = "Data koncertu: "+endDzien+"/"+endMiesiac+"/"+endRok;
-		document.getElementById("dniDoWydarzenia").innerHTML ="Do koncertu pozostało: "+ dni;
+		document.getElementById("aktualnaData").innerHTML = "Dzisiejsza data: "+dzien+"/"+miesiac+"/"+rok; 
+		document.getElementById("dataWydarzenia").innerHTML = "Data Koncertu: "+endDzien+"/"+endMiesiac+"/"+endRok;
+		document.getElementById("dniDoWydarzenia").innerHTML ="Pozostało: "+ dni;
 		 
 	}
 	
@@ -42,7 +42,7 @@
 
 <div id="container">
 <div id="topBar">
-Ile dni pozostało do koncertu</div>
+Ile dni pozostało do koncertu Thenbhd</div>
 	
 	<div id="aktualnaData">...</div> 
 
